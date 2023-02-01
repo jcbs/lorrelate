@@ -1,4 +1,7 @@
- from setuptools import setup
+from setuptools import setup
+
+with open("./requirements.txt", "r") as f:
+    required = f.read().splitlines()
 
 setup(
   name='Lorrelate',
